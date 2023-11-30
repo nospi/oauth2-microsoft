@@ -1,4 +1,4 @@
-<?php namespace Stevenmaguire\OAuth2\Client\Test\Provider;
+<?php namespace nospi\OAuth2\Client\Test\Provider;
 
 use League\OAuth2\Client\Tool\QueryBuilderTrait;
 use Mockery as m;
@@ -11,7 +11,7 @@ class MicrosoftTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->provider = new \Stevenmaguire\OAuth2\Client\Provider\Microsoft([
+        $this->provider = new \nospi\OAuth2\Client\Provider\Microsoft([
             'clientId' => 'mock_client_id',
             'clientSecret' => 'mock_secret',
             'redirectUri' => 'none',
