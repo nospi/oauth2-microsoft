@@ -1,5 +1,5 @@
 {
-    "name": "stevenmaguire/oauth2-microsoft",
+    "name": "nospi/oauth2-microsoft",
     "description": "Microsoft OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,16 @@
             "name": "Steven Maguire",
             "email": "stevenmaguire@gmail.com",
             "homepage": "https://github.com/stevenmaguire"
+        },
+        {
+            "name": "Simon Lindsay",
+            "email": "singularo@gmail.com",
+            "homepage": "https://github.com/singularo"
+        },
+        {
+            "name": "Jerad Wooldridge",
+            "email": "jerad@clozure.com.au",
+            "homepage": "https://github.com/nospi"
         }
     ],
     "keywords": [
@@ -27,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Stevenmaguire\\OAuth2\\Client\\": "src/"
+            "nospi\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stevenmaguire\\OAuth2\\Client\\Test\\": "tests/src/"
+            "nospi\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }
